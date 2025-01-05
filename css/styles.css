@@ -113,14 +113,14 @@ body {
   padding: 120px 0;
 }
 .visually-hidden {
-  visibility: hidden;
+  display: hidden;
 }
 .seciki-ul {
   display: flex;
   gap: 24px;
 }
 .seciki-li {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .seciki-basuc {
   font-weight: 500;
@@ -196,7 +196,7 @@ body {
   row-gap: 48px;
 }
 .secdort-li {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 48px) / 3);
 }
 .secdort-div {
   padding: 32px 16px;
@@ -222,14 +222,14 @@ body {
   padding: 100px 0;
 }
 .alt-logo {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
-  display: inline-block;
+  color: #4d5ae5; 
   margin-bottom: 16px;
 }
 .altkisim-paragraf {
