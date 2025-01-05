@@ -4,13 +4,15 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+.img{
+  display: block;
+}
 .general-header {
   border-bottom: 1px solid #e7e9fc;
 }
-.konteyner {
-  display: flex;
-}
+
 .container {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -28,8 +30,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 .nav-studio {
   color: #2e2f42;
@@ -220,6 +220,17 @@ body {
 .altkisim-class {
   background-color: #2e2f42;
   padding: 100px 0;
+}
+.alt-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .altkisim-paragraf {
   line-height: 1.5;
