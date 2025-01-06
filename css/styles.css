@@ -39,7 +39,7 @@ img{
   gap: 40px;
 }
 .nav-li {
-  padding: 24px 0;
+  padding: 24px;
 }
 .item {
   font-weight: 500;
@@ -130,7 +130,7 @@ img{
   gap: 24px;
 }
 .seciki-li {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .seciki-basuc {
   font-weight: 500;
@@ -149,6 +149,7 @@ img{
 .section-uc {
   background-color: #f4f4fd;
   padding: 120px 0;
+  text-align: center;
 }
 .secuc-basiki {
   font-size: 36px;
@@ -165,7 +166,7 @@ img{
 }
 .secuc-li {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .secuc-div {
@@ -206,7 +207,7 @@ img{
   row-gap: 48px;
 }
 .secdort-li {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .secdort-div {
   padding: 32px 16px;
@@ -233,6 +234,7 @@ img{
   padding: 100px 0;
 }
 .alt-logo {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -240,7 +242,6 @@ img{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
   margin-bottom: 16px;
 }
 .altkisim-paragraf {
