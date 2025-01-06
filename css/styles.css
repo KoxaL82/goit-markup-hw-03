@@ -15,9 +15,10 @@ img {
 .general-header {
   border-bottom: 1px solid #e7e9fc;
 }
-
-.container {
+.konteyner {
   display: flex;
+}
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -52,6 +53,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .item:hover {
   color: #404bbf;
@@ -212,7 +214,7 @@ img {
   row-gap: 48px;
 }
 .secdort-li {
-  width: calc((100% - 72px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .secdort-div {
   padding: 32px 16px;
@@ -251,6 +253,7 @@ img {
   margin-bottom: 16px;
 }
 .altkisim-paragraf {
+  display: inline-block;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
